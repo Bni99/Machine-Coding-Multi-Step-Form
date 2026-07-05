@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-container {
+  border: 1px solid black;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stepone-form-container {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  gap: 10px;
+  height: 200px;
+}
+
+.error-text {
+  color: red;
+  font-size: 10px;
+}
